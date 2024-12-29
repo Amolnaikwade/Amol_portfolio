@@ -5,10 +5,10 @@ import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiMongodb,
   DiPython,
   DiGit,
   DiJava,
+
 } from "react-icons/di";
 import {
   SiRedis,
@@ -16,6 +16,8 @@ import {
   SiNextdotjs,
   SiSolidity,
   SiPostgresql,
+  SiSpringboot,
+  SiSahibinden
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
@@ -40,9 +42,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiSolidity />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
+     
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
       </Col>
@@ -64,6 +64,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
       </Col>
+      
     </Row>
   );
 }
